@@ -35,7 +35,6 @@ export default function SearchSideBar({ locations, cuisines, searchParams }: {
               }
             }
             } className="font-light text-reg capitalize" key={location.id}>{location.name}</Link>
-
           ))
         }
       </div>
