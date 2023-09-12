@@ -1,4 +1,14 @@
 # openTable
+
+Hey there 👋, here's a Next.js project I'm working that is a clone of the [opentable.com](https://www.opentable.com/) website. In this project I used:
+- SupaBase to host the PostgreSQL DB
+- Prisma to interact with the DB
+- React.js, Next.js, and TypeScript
+
+
+## Here's a sample of what it looks like
+![Image of the Next.js project I'm working on](readme_images/frontend-pic.png)
+
 ## Setup and connect a PostgreSQL Database
 **Step 1:** Create a [https://supabase.com/](supabase) account
 
