@@ -2,8 +2,8 @@ import { ChangeEvent } from "react";
 
 interface Props {
   inputs: {
-    firstname: string,
-    lastname: string,
+    firstName: string,
+    lastName: string,
     email: string,
     phone: string,
     city: string,
@@ -22,17 +22,17 @@ export default function AuthModalInputs({ inputs, handleChangeInput, isSignin }:
           type="text"
           className="border rounded p-2 py-3 w-[49%]"
           placeholder="First Name"
-          value={inputs.firstname}
+          value={inputs.firstName}
           onChange={handleChangeInput}
-          name='firstname'
+          name='firstName'
         />
         <input
           type="text"
           className="border rounded p-2 py-3 w-[49%]"
           placeholder="Last Name"
-          value={inputs.lastname}
+          value={inputs.lastName}
           onChange={handleChangeInput}
-          name='lastname'
+          name='lastName'
         />
       </div>
     }
