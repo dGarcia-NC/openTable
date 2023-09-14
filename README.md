@@ -52,3 +52,8 @@ npm run dev
 
 ## You're all set, the frontend is connected to the Database:
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. 🤞
+
+## Prisma comes with a nice database UI you can view in the browser
+```bash
+npx prisma studio
+```
